@@ -1,0 +1,92 @@
+h1{
+    color:red
+}
+
+body{
+    margin : 0px;
+    background-color: #f7f2f2;
+}
+
+.header{
+    display : flex;
+    justify-content : space-between;
+    /*padding : 50px - To create Spacing Around Any thing */
+    /*padding-left : 50px - To give space only to certain parts */
+}
+
+img{
+    border : 2px black solid;
+    border-radius : 15px
+}
+
+
+.animals{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : space-evenly;
+    margin : 100px
+}
+
+.animals img{
+    border : 2px solid #000000;
+    border-radius: 50px
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: peachpuff
+    /*width : 310px;
+    font-family : fantasy*/
+}
+
+.origami:hover{
+    transform : scale(1.2)
+}
+
+p,h3{
+    text-align: center;
+}
+
+.menu{
+    display : flex;
+    justify-content: space-between;
+    /*background-color: #000000;*/
+    padding : 15px;
+    font-size : 20px;
+    font-family: sans-serif;
+    font-weight : 400;
+    color : #ffffff
+}
+
+.menu a{
+    margin-right : 30px
+}
+
+a:link{
+    color : white
+}
+
+a:visited{
+    color : rgb(231, 228, 20)
+}
+
+a{
+    text-decoration: none
+}
+
+.instructions{
+    border : solid 0px;
+    border-radius : 1cm;
+    position : relative
+}
+
+.instructions p,h3{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-400%);
+    opacity : 10;
+    color : #ffffff;
+    font-family : "Segoe UI"
+    
+}
